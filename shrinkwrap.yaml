@@ -1,0 +1,35 @@
+dependencies:
+  '@fullpage/react-fullpage': 0.1.16
+packages:
+  /@babel/polyfill/7.6.0:
+    dependencies:
+      core-js: 2.6.9
+      regenerator-runtime: 0.13.3
+    dev: false
+    resolution:
+      integrity: sha512-q5BZJI0n/B10VaQQvln1IlDK3BTBJFbADx7tv+oXDPIDZuTo37H5Adb9jhlXm/fEN4Y7/64qD9mnrJJG7rmaTw==
+  /@fullpage/react-fullpage/0.1.16:
+    dependencies:
+      '@babel/polyfill': 7.6.0
+      fullpage.js: 3.0.7
+    dev: false
+    resolution:
+      integrity: sha512-1swdS+gxfVZlZ2XE5C1TK+NRNWKMdbkkZzaQB27RouzWbVDMOtpwVOdFbIFGUgMCjW5ba5zd7qSH3htmknFFcA==
+  /core-js/2.6.9:
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
+  /fullpage.js/3.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-kKgwNWGUY/nMCMWuDJph2D4lSLmRqcEqD9zGR4no7e85sGLGUTdB5xWUUDZCXEp3nkPNVMOVJLFhJq5DbIY1UA==
+  /regenerator-runtime/0.13.3:
+    dev: false
+    resolution:
+      integrity: sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@fullpage/react-fullpage': ^0.1.16
